@@ -1,0 +1,8 @@
+RELATÓRIO DO TURNO - 2025-09-18 12:27:52
+
+Total de voos autorizados: 1
+Total de voos negados: 1
+Emergências atendidas: 0
+
+Motivos mais comuns de negação:
+  NOTAM ativo - PISTA 01/19 FECHADA 14:00-16:00 MANUTENCAO: 1
