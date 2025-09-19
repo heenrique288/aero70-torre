@@ -37,27 +37,38 @@ python3 torre.py importar-dados
 
 ### 2 - `listar`
 Lista todos os voos, ordenados por prioridade, voo, ou ETD.
+```bash
 python3 torre.py listar --por=prioridade
 python3 torre.py listar --por=voo
 python3 torre.py listar --por=etd
+```
 
 ### 3 - `enfileirar`
 Adiciona um voo à fila de decolagem ou pouso, respeitando regras de negócio (piloto, aeronave, duplicidade, etc).
+```bash
 python3 torre.py enfileirar decolagem --voo ALT123
 python3 torre.py enfileirar pouso --voo ALT901
+```
 
 ### 4 - `autorizar`
 Autoriza ou nega o primeiro voo da fila escolhida. Verifica pista, NOTAM, clima e regras de prioridade.
+```bash
 python3 torre.py autorizar decolagem --pista 10/28
 python3 torre.py autorizar pouso --pista 01/19
+```
 
 ### 5 - `status`
 Mostra o status completo da torre
+```bash
 python3 torre.py status
+```
 
 ### 6 - `relatorio`
 Gera resumo do turno com métricas
+```bash
 python3 torre.py relatorio
+```
+
 
 
 
