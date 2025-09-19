@@ -31,6 +31,7 @@ aero70/
 
 ### 1 - `importar-dados`
 Importa todos os dados de `dados/`. Valida arquivos obrigatórios e pré-calcula filas iniciais.
+```bash
 python3 torre.py importar-dados
 
 ### 2 - `listar`
@@ -56,6 +57,7 @@ python3 torre.py status
 ### 6 - `relatorio`
 Gera resumo do turno com métricas
 python3 torre.py relatorio
+
 
 
 
