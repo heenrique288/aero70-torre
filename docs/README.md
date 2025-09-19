@@ -36,7 +36,7 @@ Importa todos os dados de `dados/`. Valida arquivos obrigatórios e pré-calcula
 ```bash
 python3 torre.py importar-dados
 
-### 2 - `listar`
+### `listar`
 Lista todos os voos, ordenados por prioridade, voo, ou ETD.
 
 ```bash
@@ -69,6 +69,7 @@ Gera resumo do turno com métricas
 
 ```bash
 python3 torre.py relatorio
+
 
 
 
