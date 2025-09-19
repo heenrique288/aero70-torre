@@ -44,7 +44,7 @@ python3 torre.py listar --por=prioridade
 python3 torre.py listar --por=voo
 python3 torre.py listar --por=etd
 
-### 3 - `enfileirar`
+### **3 - `enfileirar`**
 Adiciona um voo à fila de decolagem ou pouso, respeitando regras de negócio (piloto, aeronave, duplicidade, etc).
 
 ```bash
@@ -69,6 +69,7 @@ Gera resumo do turno com métricas
 
 ```bash
 python3 torre.py relatorio
+
 
 
 
