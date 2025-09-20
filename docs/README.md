@@ -9,20 +9,35 @@ O projeto foi desenvolvido para execução **somente pelo terminal (Ubuntu)**, s
 ## Estrutura de Diretórios
 
 aero70/
+
 ├── dados/ # Arquivos CSV/TXT de entrada e filas
+
 │ ├── planos_voo.csv
+
 │ ├── frota.csv
+
 │ ├── pilotos.csv
+
 │ ├── metar.txt
+
 │ ├── notam.txt
+
 │ ├── pistas.txt
+
 │ ├── fila_decolagem.txt # Criado pelo sistema
+
 │ └── fila_pouso.txt # Criado pelo sistema
+
 ├── logs/
+
 │ └── torre.log # Todas ações registradas
+
 ├── relatorios/
+
 │ └── operacao_YYYYMMDD.txt # Relatórios de turno
+
 └── torre/
+
 └── torre.py # Script principal do sistema
 
 
@@ -68,6 +83,7 @@ Gera resumo do turno com métricas
 ```bash
 python3 torre.py relatorio
 ```
+
 
 
 
